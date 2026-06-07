@@ -11,13 +11,8 @@ Validation: Inputs are validated to ensure they’re numeric, with error handlin
 
 My Thought Process and Learning Journey
 
-When I started this project, I had a basic idea of what a calculator should do, but I was unsure how to handle input validation, loops, and error handling in a robust way. I began by writing a straightforward input and arithmetic system, but I quickly ran into issues with non-numeric inputs and repeated code. That’s when I asked for guidance from ChatGPT.
-ChatGPT helped me understand key concepts like:
-Using try-except blocks to handle input conversion safely.
-Structuring a loop so the calculator runs repeatedly until the user decides to stop.
-Implementing clear validation by catching errors during float conversion.
-With each step, I reflected on the logic: why loops help avoid repeated restarts, why validation matters before converting to numbers, and how error handling makes the program robust even with invalid input.
-In short, while I initially started with a simple design, the step-by-step exploration—and the questions I asked—helped me grow as a programmer and produce a more thoughtful and flexible solution.
+When I started this project, I had a basic idea of what a calculator should do, but I was unsure how to handle input validation, loops, and error handling in a robust way. I began by writing a straightforward input and arithmetic system, but I quickly ran into issues with non-numeric inputs and repeated code.
+To work through these challenges, I researched key concepts and explored different approaches. I learned how try-except blocks can handle input conversion safely, how a while loop can keep the calculator running until the user decides to stop, and why validating input before processing it makes a program more reliable. With each step, I reflected on the logic — why loops help avoid repeated restarts, why validation matters before converting to numbers, and how error handling makes the program robust even with invalid input.
 
 How I Built It
 
